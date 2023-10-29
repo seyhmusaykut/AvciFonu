@@ -1,0 +1,138 @@
+.footer
+{
+    color:White;
+}
+
+.a
+{
+    text-decoration:none;
+    color:Black;
+}
+
+.aa
+{
+    text-decoration:none;
+    color:White;
+}
+
+.passup
+{
+    text-decoration:none;
+    color:Black;
+}
+
+.loginss
+{
+    font-family:Brush Script MT;
+    font-size:25px;
+    color:White;
+}
+
+.button1
+{
+    background-color:none;
+    background:none;
+    border:none;
+    font-family: Sans-Serif;
+    font-size:18px;
+    border-color:none;
+}
+
+.oltayazi
+{
+    font-size:18px;
+    font-family:Calibri;
+    color:Red;
+}
+
+.oltahak
+{
+  font-size:13px;
+}
+
+.img
+{
+     border-radius: 15px;
+}
+
+.anafont
+{
+    font-family:Broadway;
+    font-size:20px;
+    font-style:italic;
+    font-weight:bold;
+}
+
+.kamisyazi
+{
+    font-size:18px;
+    font-family:Calibri;
+    color:Red;
+}
+
+.kamishak
+{
+  font-size:13px;
+}
+
+.loginyazi
+{
+    font-family:Calibri, Sans-Serif;
+    font-style:italic;
+    text-align:center;
+    font-size:25px;
+    color:#fff;
+}
+
+.logintxtbx
+{
+    border-color:#fff;
+    background:none;
+    text-align:center;
+    color:#fff;
+    font-weight:bold;
+    border-radius:25px;
+    height:25px;
+    width:225px;
+}
+
+.loginbutton
+{
+    background:none;
+    border-color:#fff;
+    border-radius:25px;
+    color:#fff;
+    font-size:18px;
+}
+
+.p
+{
+    text-align:center; 
+    color:White;
+    font-size:18px;
+    font-family:Calibri,Sans-Serif;
+    font-style:italic;
+}
+
+.list
+{
+    text-align:center; 
+    color:#000;
+    font-size:18px;
+    font-family:Calibri,Sans-Serif;
+    border-color:#fff;
+    border-radius:25px;
+}
+
+.anket
+{
+    color:Red;
+    font-family:Brush Script MT, Sans-Serif;
+    font-size:25px;
+}
+
+.anketyazi
+{
+    font-family:Calibri, Sans-Serif;
+    color:Black;
+}

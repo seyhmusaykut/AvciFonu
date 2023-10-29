@@ -1,0 +1,780 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0999CF92-8D9A-402E-93FB-44331D376883}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>seyhmusaykut1747</RootNamespace>
+    <AssemblyName>seyhmusaykut1747</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="airsoft.aspx" />
+    <Content Include="aksesuar.aspx" />
+    <Content Include="anasayfa.aspx" />
+    <Content Include="anket.aspx" />
+    <Content Include="App_Data\anket.mdb" />
+    <Content Include="App_Data\verim.mdb" />
+    <Content Include="ayak.aspx" />
+    <Content Include="cadir.aspx" />
+    <Content Include="css\arka.jpg" />
+    <Content Include="css\giris.css" />
+    <Content Include="css\menücss.css" />
+    <Content Include="css\sayfabasilink.css" />
+    <Content Include="css\slideshow.css" />
+    <Content Include="css\stilim.css" />
+    <Content Include="dag.aspx" />
+    <Content Include="dalis.aspx" />
+    <Content Include="durbun.aspx" />
+    <Content Include="fisek.aspx" />
+    <Content Include="guncelle.aspx" />
+    <Content Include="havali.aspx" />
+    <Content Include="image\airsoft-aticilik\airsilah\ASG\0015951_asg-cz-scorpion-evo-3-a1-airsoft-tufek.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\ASG\asg-68013.jpg" />
+    <Content Include="image\airsoft-aticilik\airsilah\ASG\asg-cz-scorpion-evo-3-a1-carbine-01.jpg" />
+    <Content Include="image\airsoft-aticilik\airsilah\ASG\asg-cz-scorpion-evo-3-a1-carbine-airsoft-aeg-tufek-2213-aeg-airsoft-tfek-asg-4381-22-B.jpg" />
+    <Content Include="image\airsoft-aticilik\airsilah\ASG\maxresdefault.jpg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Dragunov\0014854_dragunov-aim-top-svd-gas-bolt-action-sniper-tufek-ahsap.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Dragunov\0014855_dragunov-aim-top-svd-gas-bolt-action-sniper-tufek-ahsap.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Dragunov\0014856_dragunov-aim-top-svd-gas-bolt-action-sniper-tufek-ahsap.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Dragunov\0014857_dragunov-aim-top-svd-gas-bolt-action-sniper-tufek-ahsap.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Dragunov\0014858_dragunov-aim-top-svd-gas-bolt-action-sniper-tufek-ahsap.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Dragunov\0014859_dragunov-aim-top-svd-gas-bolt-action-sniper-tufek-ahsap.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Krytac Trident LMG Enhance Black AEG\0007594_krytac-trident-lmg-enhance-black-aeg-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Krytac Trident LMG Enhance Black AEG\0007595_krytac-trident-lmg-enhance-black-aeg-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Krytac Trident LMG Enhance Black AEG\0007596_krytac-trident-lmg-enhance-black-aeg-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Krytac Trident LMG Enhance Black AEG\0007597_krytac-trident-lmg-enhance-black-aeg-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Kwa Rm4 Ronin Recon Mlok. Erg\0008715_kwa-rm4-ronin-recon-mlok-erg-aeg-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Kwa Rm4 Ronin Recon Mlok. Erg\0008716_kwa-rm4-ronin-recon-mlok-erg-aeg-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Kwa Rm4 Ronin Recon Mlok. Erg\0008717_kwa-rm4-ronin-recon-mlok-erg-aeg-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Kwa Rm4 Ronin Recon Mlok. Erg\0008718_kwa-rm4-ronin-recon-mlok-erg-aeg-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Kwa Rm4 Ronin Recon Mlok. Erg\0008719_kwa-rm4-ronin-recon-mlok-erg-aeg-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\KWA RM4A1 ERG Geri Tepmeli Airsoft Oyuncağı\0007490_kwa-rm4a1-erg-geri-tepmeli-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\KWA RM4A1 ERG Geri Tepmeli Airsoft Oyuncağı\0007491_kwa-rm4a1-erg-geri-tepmeli-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\KWA RM4A1 ERG Geri Tepmeli Airsoft Oyuncağı\0007934_kwa-rm4a1-erg-geri-tepmeli-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\KWA RM4A1 ERG Geri Tepmeli Airsoft Oyuncağı\0007935_kwa-rm4a1-erg-geri-tepmeli-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\KWA RM4A1 ERG Geri Tepmeli Airsoft Oyuncağı\0007936_kwa-rm4a1-erg-geri-tepmeli-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\LCT LTS-Keymod 13.5\0007926_lct-lts-keymod-135-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\LCT LTS-Keymod 13.5\0007927_lct-lts-keymod-135-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\LCT LTS-Keymod 13.5\0007928_lct-lts-keymod-135-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\LCT LTS-Keymod 13.5\0007929_lct-lts-keymod-135-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\LCT VSS Vintorez Tüfek\0007930_lct-vss-vintorez-tufek.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\LCT VSS Vintorez Tüfek\0007932_lct-vss-vintorez-tufek.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\LCT VSS Vintorez Tüfek\0007933_lct-vss-vintorez-tufek.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Nuprol Bo Fabarm STF12-11 Short Yaylı Airsoft Tüfek - Siyah\0016283_nuprol-bo-fabarm-stf12-11-short-yayli-airsoft-tufek-siyah.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Nuprol Bo Fabarm STF12-11 Short Yaylı Airsoft Tüfek - Siyah\0016284_nuprol-bo-fabarm-stf12-11-short-yayli-airsoft-tufek-siyah.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Nuprol Bo Fabarm STF12-11 Short Yaylı Airsoft Tüfek - Siyah\0016285_nuprol-bo-fabarm-stf12-11-short-yayli-airsoft-tufek-siyah.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Nuprol Bo Fabarm STF12-11 Short Yaylı Airsoft Tüfek - Siyah\0016286_nuprol-bo-fabarm-stf12-11-short-yayli-airsoft-tufek-siyah.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Nuprol Bo Fabarm STF12-11 Short Yaylı Airsoft Tüfek - Siyah\0016287_nuprol-bo-fabarm-stf12-11-short-yayli-airsoft-tufek-siyah.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Nuprol Raven EU 17 Back - Siyah Airsoft Tabanca\0016278_nuprol-raven-eu-17-back-siyah-airsoft-tabanca.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Nuprol Raven EU 17 Back - Siyah Airsoft Tabanca\0016279_nuprol-raven-eu-17-back-siyah-airsoft-tabanca.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Nuprol Raven EU 17 Back - Siyah Airsoft Tabanca\0016280_nuprol-raven-eu-17-back-siyah-airsoft-tabanca.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Nuprol Raven EU 17 Back - Siyah Airsoft Tabanca\0016281_nuprol-raven-eu-17-back-siyah-airsoft-tabanca.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Tokyo Marui M16A2 AEG\0015489_tokyo-marui-m16a2-aeg-airsoft-tufek.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Tokyo Marui M16A2 AEG\0015490_tokyo-marui-m16a2-aeg-airsoft-tufek.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Tokyo Marui M16A2 AEG\0015491_tokyo-marui-m16a2-aeg-airsoft-tufek.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Tokyo Marui M16A2 AEG\0015492_tokyo-marui-m16a2-aeg-airsoft-tufek.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Tokyo Marui M16A2 AEG\0015493_tokyo-marui-m16a2-aeg-airsoft-tufek.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Tokyo Marui SGR12 Shotgun AEG\0007638_tokyo-marui-sgr12-shotgun-aeg-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Tokyo Marui SGR12 Shotgun AEG\0007639_tokyo-marui-sgr12-shotgun-aeg-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Tokyo Marui SGR12 Shotgun AEG\0007640_tokyo-marui-sgr12-shotgun-aeg-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Tokyo Marui SGR12 Shotgun AEG\0007641_tokyo-marui-sgr12-shotgun-aeg-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Tokyo Marui SIG P226 Rail Airsoft Tabanca\0014956_tokyo-marui-sig-p226-rail-airsoft-tabanca.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Tokyo Marui SIG P226 Rail Airsoft Tabanca\0014957_tokyo-marui-sig-p226-rail-airsoft-tabanca.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Tokyo Marui SIG P226 Rail Airsoft Tabanca\0014958_tokyo-marui-sig-p226-rail-airsoft-tabanca.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Tokyo Marui Socom MK23 Airsoft Oyuncağı\0008726_tokyo-marui-socom-mk23-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Tokyo Marui Socom MK23 Airsoft Oyuncağı\0008727_tokyo-marui-socom-mk23-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Tokyo Marui Socom MK23 Airsoft Oyuncağı\0008728_tokyo-marui-socom-mk23-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\Tokyo Marui Socom MK23 Airsoft Oyuncağı\0008729_tokyo-marui-socom-mk23-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\VR16 Fighter Carbine MK2 Black AEG\0008482_vr16-fighter-carbine-mk2-black-aeg-airsoft-oyuncagi.png" />
+    <Content Include="image\airsoft-aticilik\airsilah\VR16 Fighter Carbine MK2 Black AEG\0008483_vr16-fighter-carbine-mk2-black-aeg-airsoft-oyuncagi.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\WE 1911 Meu Rail Siyah Airsoft Tabanca\0015683_we-1911-meu-rail-siyah-airsoft-tabanca.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\WE 1911 Meu Rail Siyah Airsoft Tabanca\0015684_we-1911-meu-rail-siyah-airsoft-tabanca.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\WE 1911 Meu Rail Siyah Airsoft Tabanca\0015685_we-1911-meu-rail-siyah-airsoft-tabanca.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\WE 1911 Meu Rail Siyah Airsoft Tabanca\0015686_we-1911-meu-rail-siyah-airsoft-tabanca.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\WE Sig Sauer F228 Airsoft Tabanca\0015679_we-sig-sauer-f228-airsoft-tabanca.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\WE Sig Sauer F228 Airsoft Tabanca\0015680_we-sig-sauer-f228-airsoft-tabanca.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\WE Sig Sauer F228 Airsoft Tabanca\0015681_we-sig-sauer-f228-airsoft-tabanca.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsilah\WE Sig Sauer F228 Airsoft Tabanca\0015682_we-sig-sauer-f228-airsoft-tabanca.jpeg" />
+    <Content Include="image\airsoft-aticilik\airsoft-banner.jpg" />
+    <Content Include="image\airsoft-aticilik\akse\asg-airsoft-koruyucu-kask-133540.jpg" />
+    <Content Include="image\airsoft-aticilik\akse\asg-airsoft-tan-koruyucu-maske-177205.jpg" />
+    <Content Include="image\airsoft-aticilik\akse\barska-loaded-gear-cx-400-diz-ve-dirsek-koruyucu-set-147204.jpg" />
+    <Content Include="image\airsoft-aticilik\akse\gunpower-harici-tupten-dolum-aparati-133546.jpg" />
+    <Content Include="image\airsoft-aticilik\akse\leapers-utg-heavy-duty-recon-360-bipod-124473.jpg" />
+    <Content Include="image\airsoft-aticilik\akse\lyman-revolution-gun-vise-silah-bakim-istasyonu-231284.jpg" />
+    <Content Include="image\airsoft-aticilik\akse\mega-line-16-cal-tetik-dusurucu-__-274188.jpg" />
+    <Content Include="image\airsoft-aticilik\akse\weihrauch-hw-100-pcp-yedek-topu-192573.jpg" />
+    <Content Include="image\airsoft-aticilik\bilye\comet-celik-bilye-1500-adet-4.5mm-236029.jpg" />
+    <Content Include="image\airsoft-aticilik\bilye\h.-sacma-sport-classic-point-45-mm-1200-200-222906.jpg" />
+    <Content Include="image\airsoft-aticilik\bilye\headshot-0.23-gr-poset-3000-adet-beyaz-airsoft-bilye-180549.jpg" />
+    <Content Include="image\airsoft-aticilik\bilye\headshot-0.28-gr-poset-3000-adet-beyaz-airsoft-bilye-180567.jpg" />
+    <Content Include="image\airsoft-aticilik\bilye\headshot-0.28-gr-sise-3000-adet-beyaz-airsoft-bilye-180622.jpg" />
+    <Content Include="image\airsoft-aticilik\bilye\rws-4.5mm-r10-match-hv-0.45gr-c450-1500-havali-tufek-sacmasi-133570.jpg" />
+    <Content Include="image\airsoft-aticilik\bilye\rws-super-field-4.51-havali-sacma-270353.jpg" />
+    <Content Include="image\airsoft-aticilik\bilye\speed-4.5-mm-250-adet-celik-bilye-91837.jpg" />
+    <Content Include="image\airsoft-aticilik\havali.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\AIRTACT\100X-LSCYHOAWQW223201995838_Hatsan-AirTACT-Havali-Tufek-Hatsanstore.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\AIRTACT\airtact.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\AT44W-10\aksuav_hatsan_at44_w10_long_lw_pcp_havali_tufek.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\AT44W-10\at_44_w_10_long.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\AT44W-10\UMRJRXCPJZ77201814544_Hatsan-AT44-TH-10-LONG-PCP-Havali-Tufek.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\BARRAGE\barrage-dz.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\BARRAGE\barrage-m1.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\BARRAGE\barrage-m2.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\BARRAGE\barrage-od.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\BARRAGE\barrage-w.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\BARRAGE\barrage.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\BT65SB-Elite\bt_65_sb_elite.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\BT65SB-Elite\GJIOIBHKMY6222018135711_Hatsan-BT65-SB-ELITE-LW-PCP-Havali-Tufek.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\BT65SB-Elite\hatsan-bt-65-sb-elite-lw-pcp-havali-tufek-94828.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\BT65SB-Elite\maxresdefault.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\FLASH\100X-XBWALLUBHK442018142642_Hatsan-Flash-QE-PCP-Havali-Tufek-Hatsanstore.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\FLASH\flash-qe-acili.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\FLASH\flash.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\GALATIAN TACT AUTO\100X-FBYLYJPUKY362018123638_Hatsan-Galatian-TACT-AUTO-Yari-Otomatik-PCP-Havali.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\GALATIAN TACT AUTO\100X-NURMHARUWI362018123643_Hatsan-Galatian-TACT-AUTO-Yari-Otomatik-PCP-Havali.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\GALATIAN TACT AUTO\galatian-tact-auto.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\HERCULES BULLY\ACHQVJIONQ582018115617_Hatsan-Hercules-BULLY-LW-QE-PCP-Havali-Tufek-Hatsa.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\HERCULES BULLY\AUAUFJCBFZ1031201811025_Hatsan-Hercules-BULLY-QE-Desert-PCP-Havali-Tufek--.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\HERCULES BULLY\hercules-bully-1-2.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\HERCULES BULLY\hercules-bully.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\HERCULES BULLY\LMNUBKFVZW582018115613_Hatsan-Hercules-BULLY-LW-QE-PCP-Havali-Tufek-1-Hat.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\SORTIE\RGLUQFKKMW22201812139_Hatsan-Sortie-Tactical-Yari-Otomatik-PCP-Havali-Ta.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\SORTIE\sortie_sag.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\SORTIE\UTLCUPVKNP22201812142_Hatsan-Sortie-Tactical-Yari-Otomatik-PCP-Havali-Ta.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\SORTIE\XVYNRIKRYT22201812136_Hatsan-Sortie-Tactical-Yari-Otomatik-PCP-Havali-Ta.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\SPEEDFIRE\NZMPKUBSTU2232019162539_Hatsan-SpeedFire-W-VORTEX-Havali-Tufek-Hatsanstore.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\SPEEDFIRE\speedfire.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\TÜRKBULL\bullmaster-dz.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\TÜRKBULL\bullmaster-od.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Hatsan\TÜRKBULL\bullmaster.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Armour\Puncher-Armour-Bronz_5769.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Armour\Puncher-Armour-Mavi_5763.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Armour\Puncher-Armour-Siyah_5767.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Armour\Puncher-Armour-Yeşil_5759.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Armour\puncher-armuor-siyah-2000x800.png" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Big Max\IGQOEIBSMO511201815173_Kral-Arms-Puncher-Big-Max-PCP-Havali-Tufek.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Big Max\kral-puncher-bigmax.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Big Max\Puncher-bigmax-2000x800.png" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Ekinoks\puncher-ekinoks-2000x800.png" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Ekinoks\Puncher-Ekinoks-detay-2_4407.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Ekinoks\Puncher-Ekinoks-detay-3-4409.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Ekinoks\Puncher-Ekinoks-Detay_4406.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Knight S\aksuav-kral-puncher-breaker-s-sarjor-koyma-yeri-2.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Knight S\Puncher-nemesis-s-2000x800.png" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher NP-01\-kral-puncher-pcp-.JPG" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher NP-01\001.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher NP-01\aksuav-kral-np01-pcp-havali-tabanca.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher NP-01\aksuav-kral-puncher-np02-w-pcp-havali-tabanca.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher NP-01\puncher-np01-black-2000x800.png" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher One\Puncher-one-bronze_4484-2000x1335.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher One\Puncher-One-Kırmızı_4483.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher One\Puncher-one-mavi_4487.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher One\puncher-one-siyah-2000x800.png" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher One\Puncher-One-Siyah_4486.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher One\Puncher-One-yeşil_4488.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Pitbull\aksuav-kral-puncher-pitbull-pcp-havali-tufek.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Pitbull\kral-puncher-pitbull.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Pitbull\Puncher-pitbull-2000x800.png" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher PRO Marine Silent\aksuav-kral-puncher-pro-silent-marine-pcp-havali-tufek.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher PRO Marine Silent\Puncher-Pro-Marine-detay_3698.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher PRO Marine Silent\Puncher-Pro-Silent-detay_3688-2000x1335.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher PRO Marine Silent\puncher-pro-silent-marin-2000x800.png" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher PRO Marine Silent\TZUIXUDGAD516201895353_Kral-Arms-Puncher-PRO-Silent-Marine-PCP-Havali-Tuf.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Revolt\Puncher-revolt-2000x800.png" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Revolt\Puncher-Revolt-detay_4422.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Revolt\Puncher-Revolt-detay_4423.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Revolt\Puncher-Revolt-detay_4425.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Super Jumbo\puncher-jumbo-detay-3656.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Super Jumbo\puncher-jumbo-detay-3664.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Super Jumbo\puncher-jumbo-detay-3665.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Super Jumbo\puncher-jumbo-detay-3667.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher Super Jumbo\Puncher-super-jumbo-2000x800.png" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher S\2016122195212_punchermaxipcpshavalitufek6827156b.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher S\aksuav-kral-puncher-s-combo-pcp-havali-tufek.JPG" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher S\JIZCTPPYEO5112018122240_Kral-Arms-Puncher-S-PCP-Havali-Tufek.jpg" />
+    <Content Include="image\airsoft-aticilik\havalisilah\Kral ARMS\Puncher S\Puncher-S_3753.jpg" />
+    <Content Include="image\anasayfa.png" />
+    <Content Include="image\anasayfa\avci.jpg" />
+    <Content Include="image\anasayfa\balikci.jpg" />
+    <Content Include="image\anasayfa\kampci.jpg" />
+    <Content Include="image\balıkavı\balikavi.jpg" />
+    <Content Include="image\balıkavı\kamis\jig-olta-kamisi.jpg" />
+    <Content Include="image\balıkavı\kamis\jig\daiwa-catalina-bj-xhs-198cm-olta-kamisi-198-cm-252276.jpg" />
+    <Content Include="image\balıkavı\kamis\jig\daiwa-morethan-branzino-ags-97hj-olta-kamisi-252261.jpg" />
+    <Content Include="image\balıkavı\kamis\jig\daiwa-sensor-trolling-serisi-olta-kamisi-150-cm-274701.jpg" />
+    <Content Include="image\balıkavı\kamis\jig\mitchell-avocet-salt-182cm-50-150gr-jig-olta-kamisi-253800.jpg" />
+    <Content Include="image\balıkavı\kamis\olta.jpg" />
+    <Content Include="image\balıkavı\kamis\spin-olta-kamislari.jpg" />
+    <Content Include="image\balıkavı\kamis\spin\daiwa-exceler-spin-225cm-1-9gr-oltakamisi-239465.jpg" />
+    <Content Include="image\balıkavı\kamis\spin\fujin-dragon-drg-902ml-270cm-8-32gr-spin-olta-kamisi-252288.jpg" />
+    <Content Include="image\balıkavı\kamis\spin\gamakatsu-akilas-2018-90xh-274963.jpg" />
+    <Content Include="image\balıkavı\kamis\spin\megabass-xor-shadow-xx-serisi-olta-kamisi-129710.jpg" />
+    <Content Include="image\balıkavı\kamis\surf-olta-kamisi.jpg" />
+    <Content Include="image\balıkavı\kamis\surf\daiwa-tournament-surf-z-serisi-olta-kamisi-97665.jpg" />
+    <Content Include="image\balıkavı\kamis\surf\lineaeffe-mustang-1.35mt-100-250gr-tekne-kamisi-243148.gif" />
+    <Content Include="image\balıkavı\kamis\surf\okuma-ceymar-tele-surf-4.30m-6-parca-surf-kamisi-242607.jpg" />
+    <Content Include="image\balıkavı\kamis\surf\trabucco-athena-surf-serisi-olta-kamisi-105261.jpg" />
+    <Content Include="image\balıkavı\kamis\teleskopik-olta-kamisi.jpg" />
+    <Content Include="image\balıkavı\kamis\teleskopik\discovery-skorpion-teleskopik-olta-kamisi-115737.jpg" />
+    <Content Include="image\balıkavı\kamis\teleskopik\italcanna-futura-teleskopik-olta-kamisi-123940.jpg" />
+    <Content Include="image\balıkavı\kamis\teleskopik\mitchell-avocet-pg-power-serisi-olta-kamisi-156249.jpg" />
+    <Content Include="image\balıkavı\kamis\teleskopik\savage-gear-xlnt-tele-finezze-serisi-olta-kamisi-176819.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\abuspin.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\alba.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\daiwa-strikeforce-b-serisi-olta-makinesi-1000-252827.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\daiwa-triforce-s-serisi-olta-makinesi-s4000-270266.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\daiwa2500.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\daiwa3000.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\daiwa3000dc.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\daiwa4000.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\daiwastrikeforce.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\daiwatriforce.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\discovery-cs-serisi-olta-makinesi-202369.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\discovery.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\lineaeffe.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\mitchell.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\okumaceymar-fd-cxt-30.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\okumaceymar-fd-cxt-40.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\okumaceymar-fd-cxt-55.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\okumareve.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\remixonper.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\remixonsl500.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\remixonsl500ki.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\remixonsl500ma.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\remixonsl500sa.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\shimano.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\sprobla.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\sprodrag.jpg" />
+    <Content Include="image\balıkavı\makine\acilisresimleri\trabucco.png" />
+    <Content Include="image\balıkavı\makine\cikrik\cikrik_olta_makinalari.jpg" />
+    <Content Include="image\balıkavı\makine\en_iyi_olta_makineleri.jpg" />
+    <Content Include="image\balıkavı\makine\jig\jig_olta_makinalari.jpg" />
+    <Content Include="image\balıkavı\makine\spin\spin_olta_makinalari.jpg" />
+    <Content Include="image\balıkavı\makine\surf\surf_olta_makinalari.jpg" />
+    <Content Include="image\balıkavı\misina\daiwa-tournament-8b-evo-dg-1000m-ip-misina-121743.jpg" />
+    <Content Include="image\balıkavı\misina\momoi-jigline-mx8-049mm-140lb63kg-800mt-moss-g-271409.jpg" />
+    <Content Include="image\balıkavı\misina\okuma-shotai-serisi-fluorocarbon-seffaf-misina-175291.jpg" />
+    <Content Include="image\balıkavı\misina\powerline-classic-100-m.-poset-misina-025-mm-245400.jpg" />
+    <Content Include="image\balıkavı\misina\remixon-black-power-serisi-100m-monofilament-misina-98694.jpg" />
+    <Content Include="image\balıkavı\misina\remixon-fusion-serisi-1000m-ip-misina-0.30-mm-272083.jpg" />
+    <Content Include="image\balıkavı\misina\remixon-silk-pro-ip-misina-185034.jpg" />
+    <Content Include="image\balıkavı\misina\varivas-mebaru-gate-fluoro-misina-101779.jpg" />
+    <Content Include="image\doga\dag\beal-industrie-11mm-x-200m-statik-ip-beyaz-237537.jpg" />
+    <Content Include="image\doga\dag\big_159674.jpg" />
+    <Content Include="image\doga\dag\big_812403.jpg" />
+    <Content Include="image\doga\dag\black-diamond-half-dome-turuncu-kask-163344.jpg" />
+    <Content Include="image\doga\dag\black-diamond-kobra-cekic-kafa-teknik-kazma-192740.jpg" />
+    <Content Include="image\doga\dag\climbing-technology-8-li-takoz-set-192897.jpg" />
+    <Content Include="image\doga\dag\climbing-technology-geri-sarmali-15-mt-dusme-durdurucu-127540.jpg" />
+    <Content Include="image\doga\dag\ct-otomatik-krampon-nuptse-evo-237838.jpg" />
+    <Content Include="image\doga\dalis\and-outdoor-nst-dalis-maskesi-188522.jpg" />
+    <Content Include="image\doga\dalis\apnea-amarok-zipkin-eliptik-govde-kapali-kafa-93136.jpg" />
+    <Content Include="image\doga\dalis\cressi-diver-lady-dalis-elbisesi-274155.jpg" />
+    <Content Include="image\doga\dalis\mac-metal-sub-dalis-bicagi-236776.jpg" />
+    <Content Include="image\doga\dalis\seac-sub-motus-palet-272441.gif" />
+    <Content Include="image\doga\dalis\seac-sub-turbo-el-paleti-mavi-235333.jpg" />
+    <Content Include="image\doga\dalis\sherwood-regulator-oasis-int-236828.jpg" />
+    <Content Include="image\doga\dalis\spare-air-yedek-hava-kaynagi-siyah-manometreli-236841.jpg" />
+    <Content Include="image\doga\kayak\big_1177878.jpg" />
+    <Content Include="image\doga\kayak\big_1493203.jpg" />
+    <Content Include="image\doga\kayak\big_1493252.jpg" />
+    <Content Include="image\doga\kayak\big_1510276.jpg" />
+    <Content Include="image\doga\kayak\cabelas-termal-kayak-eldiveni-large-229442.jpg" />
+    <Content Include="image\doga\kayak\carinthia-downy-extreme-overall-tulum-163449.jpg" />
+    <Content Include="image\doga\kayak\evolite-force-kayak-eldiveni-228231.jpg" />
+    <Content Include="image\doga\kayak\evolite-peak-sp194-bl-kayak-gozlugu-149167.jpg" />
+    <Content Include="image\giyim\bot\0007369_grisport-12505-kadin-bot.jpeg" />
+    <Content Include="image\giyim\bot\0016765_the-north-face-t92t3s-storm-strike-wp-erkek-botu.jpeg" />
+    <Content Include="image\giyim\bot\0016981_salomon-l4043700-quest-prime-gtx-erkek-outdoor-bot.jpeg" />
+    <Content Include="image\giyim\bot\big_1596322.jpg" />
+    <Content Include="image\giyim\bot\big_931755.jpg" />
+    <Content Include="image\giyim\bot\demar-yetti-classic-a-70-cizme-113856.jpg" />
+    <Content Include="image\giyim\bot\gezer-orman-desenli-kasik-cizme-199882.jpg" />
+    <Content Include="image\giyim\bot\gezeravci.jpg" />
+    <Content Include="image\giyim\mont\big_1491725.jpg" />
+    <Content Include="image\giyim\mont\big_1492575.jpg" />
+    <Content Include="image\giyim\mont\carinthia-downy-extreme-kirmizi-mont-111132.jpg" />
+    <Content Include="image\giyim\mont\helikon-tex-alpha-tactical-serisi-kamuflaj-ceket-112715.jpg" />
+    <Content Include="image\giyim\mont\patagonia-bayan-grade-vi-ceket-acik-mavi-111440.jpg" />
+    <Content Include="image\giyim\mont\patagonia-bayan-strech-element-mont-turuncu-230133.jpg" />
+    <Content Include="image\giyim\mont\pinewood-9754-mountain-extreme-yesil-erkek-mont-113487.jpg" />
+    <Content Include="image\giyim\mont\sturm-softshell-coyote-ceket-200020.jpg" />
+    <Content Include="image\giyim\pantolon\0000581_hart-armoforce-evo-t-pantolon.jpeg" />
+    <Content Include="image\giyim\pantolon\0000641_hart-latok-t-sessiz-kumas-softshell-avci-pantolonu.jpeg" />
+    <Content Include="image\giyim\pantolon\0001141_helly-hansen-sogn-cargo-kayak-pantolonu-erkek-hha65527.jpeg" />
+    <Content Include="image\giyim\pantolon\0002868_killtec-salmun-function-outdoor-pantolon.jpeg" />
+    <Content Include="image\giyim\pantolon\0006030_jack-wolfskin-activate-thermic-erkek-pantolon-1503601.jpeg" />
+    <Content Include="image\giyim\pantolon\big_41293.jpg" />
+    <Content Include="image\giyim\pantolon\deer-hunter-cheaha-avci-pantolon-113446.jpg" />
+    <Content Include="image\giyim\pantolon\pinewood-9840-thomas-ekberg-pantolon-197242.jpg" />
+    <Content Include="image\giyim\polar\0000623_hart-inliner-fz-ruzgar-gecirmez-polar-mont.jpeg" />
+    <Content Include="image\giyim\polar\0007280_helly-hansen-mount-polar-sweatshirt-erkek-hha12001.jpeg" />
+    <Content Include="image\giyim\polar\big_1160927.jpg" />
+    <Content Include="image\giyim\polar\big_1209120.jpg" />
+    <Content Include="image\giyim\polar\big_1501006.jpg" />
+    <Content Include="image\giyim\polar\big_372695.jpg" />
+    <Content Include="image\giyim\polar\pinguin-power-men-half-zip-mavi-238684.jpg" />
+    <Content Include="image\giyim\polar\sturm-troyer-kazak-siyah-186621.jpg" />
+    <Content Include="image\kamp\cadir\and-outdoor-kamuflaj-otomatik-cadir-3-kisilik-187883.jpg" />
+    <Content Include="image\kamp\cadir\ferrino-campo-base-cadir-151586.jpg" />
+    <Content Include="image\kamp\cadir\ferrino-colle-sud-5-mevsim-cadir-151827.jpg" />
+    <Content Include="image\kamp\cadir\free-camp-explover-arac-ustu-cadir-141311.jpg" />
+    <Content Include="image\kamp\cadir\guntack-canton-4.1-aile-cadiri-245832.jpg" />
+    <Content Include="image\kamp\cadir\pavillo-68013-triptrek-4-kisilik-cadir-97858.jpg" />
+    <Content Include="image\kamp\cadir\pavillo-68015-hogan-5-kisilik-cadir-97860.jpg" />
+    <Content Include="image\kamp\cadir\ust-brands-survival-battaniye-cadir-180724.jpg" />
+    <Content Include="image\kamp\matlar\ferrino-nap-kapali-hucre-mat-151001.jpg" />
+    <Content Include="image\kamp\matlar\ferrino-superlite-650-sisme-mat-151065.jpg" />
+    <Content Include="image\kamp\matlar\freecamp-leisure-sisme-matyatak-turkuaz-273820.jpg" />
+    <Content Include="image\kamp\matlar\husky-fuzzy-ladies-sisme-mat-160614.jpg" />
+    <Content Include="image\kamp\matlar\jrc-maxi-mat-115931.jpg" />
+    <Content Include="kayak.aspx" />
+    <Content Include="mat.aspx" />
+    <Content Include="image\kamp\matlar\pinguin-nomad-50-double-gri-sisme-mat-166195.jpg" />
+    <Content Include="image\kamp\matlar\pinguin-peak-25-turuncu-sisme-mat-86766.jpg" />
+    <Content Include="image\kamp\matlar\square-10-mm-gri-mat-163847.jpg" />
+    <Content Include="image\kamp\tulum\carinthia-ecc-expedition-1200-l-uyku-tulumu-237568.jpg" />
+    <Content Include="image\kamp\tulum\carinthia-survival-down-1000-uyku-tulumu-272365.gif" />
+    <Content Include="image\kamp\tulum\deuter-shelter-ii-uyku-tulumu-191952.jpg" />
+    <Content Include="image\kamp\tulum\discovery-dj19-lacivert-fume-uyku-tulumu_-158244.jpg" />
+    <Content Include="image\kamp\tulum\evolite-aurora-150-uyku-tulumu-149573.jpg" />
+    <Content Include="image\kamp\tulum\ferrino-diable-86014-uyku-tulumu-151393.jpg" />
+    <Content Include="image\kamp\tulum\ferrino-lightech-shingle-sq-uyku-tulumu-151497.jpg" />
+    <Content Include="image\kamp\tulum\ferrino-nightec-600-lite-pro-uyku-tulumu-151505.jpg" />
+    <Content Include="image\karaavı\durbunler\asg-strike-4x32-gezli-tufek-durbunu-177213.jpg" />
+    <Content Include="image\karaavı\durbunler\bushnell-3.5-21x50-ers-tufek-durbunu-159484.jpg" />
+    <Content Include="image\karaavı\durbunler\bushnell-4-16x50-tufek-durbunu-159453.jpg" />
+    <Content Include="image\karaavı\durbunler\comet-magnifier-tufek-durbunu-144102.jpg" />
+    <Content Include="image\karaavı\durbunler\hawke-airmax-ax-3-9x40-tufek-durbunu-139802.jpg" />
+    <Content Include="image\karaavı\durbunler\hawke-endurance-2-7x32-ler-hk6350-tufek-durbunu-168496.jpg" />
+    <Content Include="image\karaavı\durbunler\tasco-1.5-6x42-mm-titan-tufek-durbunu-164255.jpg" />
+    <Content Include="image\karaavı\durbunler\triple-duty-1-6x24-tufek-durbunu-266903.jpg" />
+    <Content Include="image\karaavı\fisekler\201-28-kece-tapa.jpg" />
+    <Content Include="image\karaavı\fisekler\201.12.SSH.jpg" />
+    <Content Include="image\karaavı\fisekler\34782046079635_17_JK6_34_Gr.jpg" />
+    <Content Include="image\karaavı\fisekler\96075075864790_Başlıksız-6.jpg" />
+    <Content Include="image\karaavı\fisekler\99502199888228_BP_Extra_Rossa_36_KAL_15_GRAM.jpg" />
+    <Content Include="image\karaavı\fisekler\Express_Long_Range.jpg" />
+    <Content Include="image\karaavı\fisekler\Feltro_33-90.jpg" />
+    <Content Include="image\karaavı\fisekler\inperial_34_gr.JPG" />
+    <Content Include="image\karaavı\fisekler\legıa.jpg" />
+    <Content Include="image\karaavı\fisekler\RVS_36_GR.jpg" />
+    <Content Include="image\karaavı\fisekler\saga_export_30gr.JPG" />
+    <Content Include="image\karaavı\fisekler\winchester_x3_plus_fiber-75.jpg" />
+    <Content Include="image\karaavı\kiliflar\0000866_allen-durango-132-cm-tufek-kilifi.jpeg" />
+    <Content Include="image\karaavı\kiliflar\0004558_nuprol-hard-case-tufek-cantasi.jpeg" />
+    <Content Include="image\karaavı\kiliflar\avsan-klf0033-lux-tufek-kilifi-125840.jpg" />
+    <Content Include="image\karaavı\kiliflar\avsan-klf0053-cifte-superpoze-tufek-kilifi-125794.jpg" />
+    <Content Include="image\karaavı\kiliflar\barska-loaded-gear-rx-400-tactical-siyah-tufek-kilifi-147190.jpg" />
+    <Content Include="image\karaavı\kiliflar\browning-1412124248-tufek-kilifi-194170.jpg" />
+    <Content Include="image\karaavı\kiliflar\headshot-alone-wolf-115-cm-tufek-tasima-cantasi-haki-273971.jpg" />
+    <Content Include="image\karaavı\kiliflar\helikon-tex-cift-bolmeli-siyah-tufek-tasima-cantasi-173330.jpg" />
+    <Content Include="kilif.aspx" />
+    <Content Include="image\balıkavı\yemler\megabass-zonk120-gataride-hi-pitch-maket-yem-212260.jpg" />
+    <Content Include="image\balıkavı\yemler\savage-gear-sandeel-silikon-yem-seti-224407.jpg" />
+    <Content Include="image\balıkavı\yemler\savage-gear-sg-rotex-spinner-kit2-223531.jpg" />
+    <Content Include="image\balıkavı\yemler\spro-mega-jig-shad-275gr-20cm-golden-2li-paket-271876.jpg" />
+    <Content Include="image\balıkavı\yemler\tackle-house-feed-popper-150-maket-yem-213407.jpg" />
+    <Content Include="image\balıkavı\yemler\tackle-house-salty-shad-100-maket-yem-213313.jpg" />
+    <Content Include="image\balıkavı\yemler\yo-zuri-crystal-minnow-f9-s90-serisi-216206.jpg" />
+    <Content Include="image\balıkavı\yemler\yo-zuri-crystal-minnow-serisi-9-cm-suni-yem-219964.jpg" />
+    <Content Include="image\banner.jpg" />
+    <Content Include="image\body.jpg" />
+    <Content Include="image\footer.fw.png" />
+    <Content Include="image\footer.jpg" />
+    <Content Include="image\kamp\kampci.jpg" />
+    <Content Include="image\karaavı\avci.jpg" />
+    <Content Include="image\karaavı\karaavi.jpg" />
+    <Content Include="image\karaavı\silahlar\Derya ARMS\Bullpup N-100\derya-bullpup-n100.jpg" />
+    <Content Include="image\karaavı\silahlar\Derya ARMS\Bullpup N-100\download.jpg" />
+    <Content Include="image\karaavı\silahlar\Derya ARMS\Bullpup N-100\IMG_6290.jpg" />
+    <Content Include="image\karaavı\silahlar\Derya ARMS\CRX-400\IMG_6710.jpg" />
+    <Content Include="image\karaavı\silahlar\Derya ARMS\CRX-400\resize.png" />
+    <Content Include="image\karaavı\silahlar\Derya ARMS\Lion P-100\IMG_6367.jpg" />
+    <Content Include="image\karaavı\silahlar\Derya ARMS\Lion P-100\Screenshot_20190324-164840.jpg" />
+    <Content Include="image\karaavı\silahlar\Derya ARMS\Lion P-100\Screenshot_20190324-164844.jpg" />
+    <Content Include="image\karaavı\silahlar\Derya ARMS\Mk12\103sf2.png" />
+    <Content Include="image\karaavı\silahlar\Derya ARMS\Mk12\20170629_171842_resized %282%29-1500x850.jpg" />
+    <Content Include="image\karaavı\silahlar\Derya ARMS\Mk12\882839713.jpg" />
+    <Content Include="image\karaavı\silahlar\Derya ARMS\Mk12\derya-as-100-s_min.jpg" />
+    <Content Include="image\karaavı\silahlar\Derya ARMS\Mk12\Derya-MK-12-AS-full-metal-12-cal-10-kapasite-sarjorlu-tufek_23.jpg" />
+    <Content Include="image\karaavı\silahlar\Derya ARMS\Mk12\derya-mk-12-atis-videolari-20170228.jpg" />
+    <Content Include="image\karaavı\silahlar\Derya ARMS\Mk12\derya-mk12-icerik.png" />
+    <Content Include="image\karaavı\silahlar\Derya ARMS\Mk12\Ekran-Alınddstısı-1024x569.jpg" />
+    <Content Include="image\karaavı\silahlar\Derya ARMS\Mk12\GWSHZQRGAZ1232017175221_Derya-MK-12-AS-100S-Full-Metal-Otomatik-Av-Tufe-i.jpg" />
+    <Content Include="image\karaavı\silahlar\Derya ARMS\Mk12\image.jpg" />
+    <Content Include="image\karaavı\silahlar\Derya ARMS\Mk12\mk-12_blk.jpg" />
+    <Content Include="image\karaavı\silahlar\Husan ARMS\HMF2001\1500287258.jpg" />
+    <Content Include="image\karaavı\silahlar\Husan ARMS\HMF2001\1500287288.jpg" />
+    <Content Include="image\karaavı\silahlar\Husan ARMS\HMF2008\1500287332.jpg" />
+    <Content Include="image\karaavı\silahlar\Husan ARMS\HMF2008\1500287378.jpg" />
+    <Content Include="image\karaavı\silahlar\Husan ARMS\HMF2008\1500289369.jpg" />
+    <Content Include="image\karaavı\silahlar\Husan ARMS\HMF2008\1500289419.jpg" />
+    <Content Include="image\karaavı\silahlar\Husan ARMS\HMF2008\download1.jpg" />
+    <Content Include="image\karaavı\silahlar\Husan ARMS\HMF2008\_eskitme-20-kalibre.jpg" />
+    <Content Include="image\karaavı\silahlar\Husan ARMS\HMF2008\_yanikbronz20kalibre.jpg" />
+    <Content Include="image\karaavı\silahlar\Husan ARMS\HSK1203\1500289541.jpg" />
+    <Content Include="image\karaavı\silahlar\Husan ARMS\HSK1203\_polimer-12-ga.jpg" />
+    <Content Include="image\karaavı\silahlar\Husan ARMS\HSKT1206AL\1500289593.jpg" />
+    <Content Include="image\karaavı\silahlar\Husan ARMS\HSKT1206AL\1500289617.jpg" />
+    <Content Include="image\karaavı\silahlar\Husan ARMS\HSKT1206AL\download.jpg" />
+    <Content Include="image\karaavı\silahlar\Kral ARMS\Compact\compact-1.jpg" />
+    <Content Include="image\karaavı\silahlar\Kral ARMS\Compact\compact-2.jpg" />
+    <Content Include="image\karaavı\silahlar\Kral ARMS\Compact\compact-3.jpg" />
+    <Content Include="image\karaavı\silahlar\Kral ARMS\XPS Taktikal\XPS-Black-kısa-şarjör.jpg" />
+    <Content Include="image\karaavı\silahlar\Kral ARMS\XPS Taktikal\XPS-Brunt-Broze-kısa-şarjör.jpg" />
+    <Content Include="image\karaavı\silahlar\Kral ARMS\XPS Taktikal\XPS-OD-Green-kısa-şarjör.jpg" />
+    <Content Include="image\karaavı\silahlar\ruhsat\RUHSAT-BILGISI.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\FRANCHI\Franchi_1.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\FRANCHI\Franchi_2.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\FRANCHI\Franchi_3.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\FRANCHI\FRANCHI_4.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\M204 STD\M204STD_1.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\M204 STD\M204STD_2.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\M204 STD\M204STD_3.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\M204 STD\M204STD_4.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\M206 W\M206W_1.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\M206 W\M206W_2.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\M206 W\M206W_3.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\M206 W\M206W_4.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\M212\M212_1.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\M212\M212_2.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\M212\M212_3.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\M212\M212_4.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\MAGIC SLUG\MAGICSLUG_GRI_1.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\MAGIC SLUG\MAGICSLUG_GRI_2.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\MAGIC SLUG\MAGICSLUG_GRI_3.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\MAGIC SLUG\MAGICSLUG_GRI_4.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\MAGIC SLUG\MAGICSLUG_KAHVE_1.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\MAGIC SLUG\MAGICSLUG_KAHVE_2.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\MAGIC SLUG\MAGICSLUG_KAHVE_3.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\MAGIC SLUG\MAGICSLUG_KAHVE_4.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\MAGIC SLUG\MAGICSLUG_SIYAH_1.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\MAGIC SLUG\MAGICSLUG_SIYAH_2.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\MAGIC SLUG\MAGICSLUG_SIYAH_3.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\MAGIC SLUG\MAGICSLUG_SIYAH_4.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\MAGIC\MAGIC_BORDO_1.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\MAGIC\MAGIC_BORDO_2.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\MAGIC\MAGIC_BORDO_3.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\MAGIC\MAGIC_Bordo_4.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\MAGIC\MAGIC_KAHVE_1.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\MAGIC\MAGIC_KAHVE_2.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\MAGIC\MAGIC_KAHVE_3.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\MAGIC\MAGIC_KAHVE_4.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\MAGIC\MAGIC_SIYAH_1.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\MAGIC\MAGIC_SIYAH_2.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\MAGIC\MAGIC_SIYAH_3.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\SA-W 700 L\SAW700L_1.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\SA-W 700 L\SAW700L_2.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\SA-W 700 L\SAW700L_3.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\SA-W 700 L\SAW700L_4.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\SA-X 700\SAX700_12GA_1.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\SA-X 700\SAX700_12GA_2.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\SA-X 700\SAX700_12GA_3.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\SA-X 700\SAX700_12GA_4.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\SA-X 700\SAX700_20GA_1.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\SA-X 700\SAX700_20GA_2.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\SA-X 700\SAX700_20GA_3.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\SA-X 700\SAX700_20GA_4.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\SP-WSS 512 NOBLE\SPWSS512_NOBLE_1.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\SP-WSS 512 NOBLE\SPWSS512_NOBLE_2.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\SP-WSS 512 NOBLE\SPWSS512_NOBLE_3.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\SP-WSS 512 NOBLE\SPWSS512_Noble_4.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\SP-XS 512\SPXS512_1.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\SP-XS 512\SPXS512_2.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\SP-XS 512\SPXS512_3.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\SP-XS 512\SPXS512_CAMO_1.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\SP-XS 512\SPXS512_CAMO_2.jpg" />
+    <Content Include="image\karaavı\silahlar\Sarsılmaz\SP-XS 512\SPXS512_CAMO_3.jpg" />
+    <Content Include="image\yukarı.png" />
+    <Content Include="kamis.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="mermi.aspx" />
+    <Content Include="misina.aspx" />
+    <Content Include="mont.aspx" />
+    <Content Include="oltamaki.aspx" />
+    <Content Include="pantolon.aspx" />
+    <Content Include="polar.aspx" />
+    <Content Include="tufek.aspx" />
+    <Content Include="tulum.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="yem.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="airsoft.aspx.cs">
+      <DependentUpon>airsoft.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="airsoft.aspx.designer.cs">
+      <DependentUpon>airsoft.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aksesuar.aspx.cs">
+      <DependentUpon>aksesuar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aksesuar.aspx.designer.cs">
+      <DependentUpon>aksesuar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="anasayfa.aspx.cs">
+      <DependentUpon>anasayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="anasayfa.aspx.designer.cs">
+      <DependentUpon>anasayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="anket.aspx.cs">
+      <DependentUpon>anket.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="anket.aspx.designer.cs">
+      <DependentUpon>anket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ayak.aspx.cs">
+      <DependentUpon>ayak.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ayak.aspx.designer.cs">
+      <DependentUpon>ayak.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cadir.aspx.cs">
+      <DependentUpon>cadir.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cadir.aspx.designer.cs">
+      <DependentUpon>cadir.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dag.aspx.cs">
+      <DependentUpon>dag.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dag.aspx.designer.cs">
+      <DependentUpon>dag.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dalis.aspx.cs">
+      <DependentUpon>dalis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dalis.aspx.designer.cs">
+      <DependentUpon>dalis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="durbun.aspx.cs">
+      <DependentUpon>durbun.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="durbun.aspx.designer.cs">
+      <DependentUpon>durbun.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="fisek.aspx.cs">
+      <DependentUpon>fisek.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fisek.aspx.designer.cs">
+      <DependentUpon>fisek.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="guncelle.aspx.cs">
+      <DependentUpon>guncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="guncelle.aspx.designer.cs">
+      <DependentUpon>guncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="havali.aspx.cs">
+      <DependentUpon>havali.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="havali.aspx.designer.cs">
+      <DependentUpon>havali.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kayak.aspx.cs">
+      <DependentUpon>kayak.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kayak.aspx.designer.cs">
+      <DependentUpon>kayak.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mat.aspx.cs">
+      <DependentUpon>mat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mat.aspx.designer.cs">
+      <DependentUpon>mat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kilif.aspx.cs">
+      <DependentUpon>kilif.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kilif.aspx.designer.cs">
+      <DependentUpon>kilif.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kamis.aspx.cs">
+      <DependentUpon>kamis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kamis.aspx.designer.cs">
+      <DependentUpon>kamis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mermi.aspx.cs">
+      <DependentUpon>mermi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mermi.aspx.designer.cs">
+      <DependentUpon>mermi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="misina.aspx.cs">
+      <DependentUpon>misina.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="misina.aspx.designer.cs">
+      <DependentUpon>misina.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mont.aspx.cs">
+      <DependentUpon>mont.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mont.aspx.designer.cs">
+      <DependentUpon>mont.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="oltamaki.aspx.cs">
+      <DependentUpon>oltamaki.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="oltamaki.aspx.designer.cs">
+      <DependentUpon>oltamaki.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pantolon.aspx.cs">
+      <DependentUpon>pantolon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pantolon.aspx.designer.cs">
+      <DependentUpon>pantolon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="polar.aspx.cs">
+      <DependentUpon>polar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="polar.aspx.designer.cs">
+      <DependentUpon>polar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sablonum.Master.cs">
+      <DependentUpon>sablonum.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sablonum.Master.designer.cs">
+      <DependentUpon>sablonum.Master</DependentUpon>
+    </Compile>
+    <Compile Include="tufek.aspx.cs">
+      <DependentUpon>tufek.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tufek.aspx.designer.cs">
+      <DependentUpon>tufek.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tulum.aspx.cs">
+      <DependentUpon>tulum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tulum.aspx.designer.cs">
+      <DependentUpon>tulum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yem.aspx.cs">
+      <DependentUpon>yem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yem.aspx.designer.cs">
+      <DependentUpon>yem.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sablonum.Master" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="image\banner.psd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1188</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

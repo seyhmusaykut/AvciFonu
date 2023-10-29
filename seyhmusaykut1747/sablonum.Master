@@ -1,0 +1,176 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="sablonum.master.cs" Inherits="seyhmusaykut1747.sablonum" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 960px;
+        }
+        </style>
+    <link href="css/menücss.css" rel="stylesheet" type="text/css" />
+    <link href="css/stilim.css" rel="stylesheet" type="text/css" />
+    <link href="css/giris.css" rel="stylesheet" type="text/css" />
+    <link href="css/slideshow.css" rel="stylesheet" type="text/css" />
+    <link href="css/sayfabasilink.css" rel="stylesheet" type="text/css" />
+</head>
+<body background="image/body.jpg">
+    <form id="form1" runat="server">
+    <div>
+        <table align="center" cellpadding="0" cellspacing="0" class="style1">
+            <tr valign="top">
+                <td height="250" background="image/banner.jpg">
+                    <asp:Panel ID="girisyok" runat="server">
+                    <table align="right">
+                    <tr>
+                        <td>
+                      <div id="myNav" class="overlay">
+                          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                          <div class="overlay-content">
+                            <div class="login-box">
+		                        <h1>Giriş Yap</h1>
+		                        <div class="textbox">
+			                        <i class="fa fa-user" aria-hidden="true"></i>
+                                    <asp:TextBox ID="k_adi" placeholder="Kullanıcı Adı" runat="server" CssClass="textbox"></asp:TextBox>
+		                        </div>
+		                        <div class="textbox">
+			                        <i class="fa fa-lock" aria-hidden="true"></i>
+			                        <asp:TextBox ID="sifre" placeholder="Şifreniz" runat="server" 
+                                        CssClass="textbox" TextMode="Password"></asp:TextBox>
+		                        </div>		
+                                <asp:Button ID="giris" runat="server" Text="Giriş Yap" CssClass="btn" onclick="giris_Click" />
+	                        </div>
+                          </div>
+                        </div>
+                        <span style="font-size:18px;cursor:pointer" onclick="openNav()">Giriş</span>
+                        </td>
+                        <td>
+                            <asp:Button ID="u_ol" runat="server" Text="Üye Ol" PostBackUrl="~/login.aspx" CssClass="button" />
+                        </td>
+                    </tr>
+                </table>
+                    </asp:Panel>
+                    <asp:Panel ID="girisvar" runat="server" Visible="False">
+                    <table align="right">
+                        <tr>
+                            <td align="center">
+                                Merhaba <asp:Label ID="Label1" runat="server" Text=""></asp:Label> Hoşgeldiniz<br /><br />
+                                    <asp:Button ID="cikis" runat="server" Text="Çıkış" onclick="cikis_Click" 
+                                    CssClass="button1" />
+                                    <asp:Button ID="Button1" runat="server" Text="Güncelle" CssClass="button1" 
+                                    PostBackUrl="~/guncelle.aspx" />
+                            </td>
+                        </tr>
+                    </table>
+                    </asp:Panel>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="navbar">
+                      <a href="anasayfa.aspx">
+                          <img src="image/anasayfa.png" height="20" /></a>
+                      <div class="subnav">
+                        <button class="subnavbtn">Balık Avı</button>
+                        <div class="subnav-content">
+                          <a href="oltamaki.aspx">Makinalar</a><br />
+                          <a href="kamis.aspx">Kamışlar</a><br />
+                          <a href="misina.aspx">Misinalar</a><br />
+                          <a href="yem.aspx">Yemler</a><br />
+                        </div>
+                      </div> 
+                      <div class="subnav">
+                        <button class="subnavbtn">Kara Avı </button>
+                        <div class="subnav-content">
+                          <a href="tufek.aspx">Tüfekler</a><br />
+                          <a href="kilif.aspx">Kılıflar</a><br />
+                          <a href="fisek.aspx">Fişekler</a><br />
+                          <a href="durbun.aspx">Dürbünler</a><br />
+                          
+                        </div>
+                      </div> 
+                      <div class="subnav">
+                        <button class="subnavbtn">Atıcılık-Aırsoft </button>
+                        <div class="subnav-content">
+                          <a href="havali.aspx">Havalı Silahlar</a><br />
+                          <a href="airsoft.aspx">Aırsoft Silahlar</a><br />
+                          <a href="mermi.aspx">Bilyeler-Saçmalar-BBS</a><br />
+                          <a href="aksesuar.aspx">Aksesuarlar</a><br />
+                        </div>
+                      </div>
+                      <div class="subnav">
+                        <button class="subnavbtn">Kamp</button>
+                        <div class="subnav-content">
+                          <a href="cadir.aspx">Çadırlar</a><br />
+                          <a href="tulum.aspx">Tulumlar</a><br />
+                          <a href="mat.aspx">Matlar</a><br />
+                        </div>
+                      </div>
+                      <div class="subnav">
+                        <button class="subnavbtn">Giyim-Ayakkabı</button>
+                        <div class="subnav-content">
+                          <a href="mont.aspx">Montlar<br />ve<br />Ceketler</a><br />
+                          <a href="pantolon.aspx">Pantolonlar</a><br />
+                          <a href="polar.aspx">Polarlar</a><br />
+                          <a href="ayak.aspx">Ayakkabılar<br />Botlar</a><br />
+                        </div>
+                      </div>
+                      <div class="subnav">
+                        <button class="subnavbtn">Doğa Sporları</button>
+                        <div class="subnav-content">
+                          <a href="dag.aspx">Dağcılık</a><br />
+                          <a href="dalis.aspx">Dalış</a><br />
+                          <a href="kayak.aspx">Kayak<br />Snowboard</a><br />
+                        </div>
+                      </div>
+                      <a href="anket.aspx" class="AaA">Anket</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="White" valign="top">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td height="150" background="image/footer.fw.png" align="right">
+                    <img src="image/yukarı.png" onclick="topFunction()" id="myBtn" width="50" height="50"  />
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+</script>
+<script>
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+</body>
+</html>
